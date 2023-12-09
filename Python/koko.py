@@ -1,9 +1,6 @@
-# fname= input("insert your first name please")
-# mname= input("insert your middle name please")  
-# lname= input("insert your last name please")  
-# print(f"Hallo {fname} {mname} {lname} ")
-x= input("please enter a number?\n")
+def fun():
+    x=100
+    return x
+x=fun()
+x =+ 1
 print(x)
-y= input("please enter a number?\n")
-print(y)
-print((int(x)+int(y)))
