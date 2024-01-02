@@ -1,0 +1,23 @@
+# print(item1.calculate_total_price())
+# print(Item.pay_rate) # Access the class attribute with the class 
+# print(item1.pay_rate) # Access the class attribute with the Instance
+# '''
+# print(item1.pay_rate)
+# what happens here the instance will search the pay_rate in my instance attribute 
+# if not found will bring that from the class level
+# '''
+# print(Item.__dict__)  # All the attributes for class level
+# print(Item.__dict__) # All the attributes for instance level
+# item2.pay_rate=0.75 # Python will look for the pay_rate in instance level firstly
+# print(item2.price)
+# item2.apply_discount()
+# print(item2.price)
+# Item.instantiate_from_csv()   
+# print(Item.all)ss
+# print(Item.is_integer(3.0)) # calling a static method
+# phone1=Phone("IPhon13",800,5,1)
+# phone2=Phone("Note 13",1100,5,1)
+# print(Item.all) #[Item('Galaxy',500,5)]
+# print(Phone.all)#[Item('Galaxy',500,5)]
+# We notice here that we have Item as well 
+# for Phone class so we should edit __repr__
