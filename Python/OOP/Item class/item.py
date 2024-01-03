@@ -10,7 +10,7 @@ class Item:
         assert quantity>=0,f"Price {quantity} is not greater or equal than Zero!" 
         # Whenever the condtion not valid an error happens
         # Assign to self object
-        self.name=name
+        self.__name=name
         self.price=price
         self.quantity=quantity
         # Action to excute
@@ -48,5 +48,14 @@ class Item:
             return True
         else:
             return False
-        
-
+    @property
+    # Property Decorator = Read-Only Attribute
+    # When I use this property without using setter method it turns this
+    # attribute to read only attribute so we can instantiate it but
+    # we cant update it until we have a setter method.    
+    def name(self):
+        return self.__name
+    # As I notice I can use getter and setter methods for only-private
+    @name.setter
+    def set_name(self,value):
+        self.__name=value   
