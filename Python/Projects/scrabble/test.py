@@ -165,10 +165,10 @@ print(x)
 
 
 
-# for per in my_permutations:
-#     print(per)
+for per in my_permutations:
+    print(per)
     
-# print(len(my_permutations))
+print(len(my_permutations))
 # lst =search_list(wordlist,my_permutations)
 # # so=set(lst)
 # print(lst)
