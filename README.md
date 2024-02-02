@@ -3,5 +3,7 @@ It contains different files:
 - Basics  
 - Modules  
 - OOP  
-- Pandas4  
-- Regular Expressions
+- Pandas 
+- Regular Expressions  
+- Database  
+- Projects
