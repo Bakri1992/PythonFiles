@@ -1,7 +1,7 @@
-This Repo contains all my Python File
-It contains different files:
-    1. Basics
-    2. Modules
-    3. OOP
-    4. Pandas4
-    5. Regular Expressions
+This Repo contains all my Python File  
+It contains different files:  
+- Basics  
+- Modules  
+- OOP  
+- Pandas4  
+- Regular Expressions
